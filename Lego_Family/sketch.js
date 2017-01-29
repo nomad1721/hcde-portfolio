@@ -1,3 +1,8 @@
+// Josh Baker
+// edited 1/28/16
+// Progam that animates characters from Wall-E movie (in the style of a Lego family)
+
+
 var x = 600 // define starting point of x variable
 var y = 372 // define starting point of y variable
 var dir = -1
@@ -32,7 +37,7 @@ function draw() {
 
 // begin "Wall-E" fxns ----------------------------
 
-function walle() {
+function walle() { // elements that make up Wall-E character
   // head
   fill(86, 86, 84); // sets fill color
   rect(x, y, 64, 32); // draws a rectangle
@@ -59,14 +64,14 @@ function walleeyes() { // calls "walleeye" fxn
   walleeye(x + 48); // sets location of second "walleeye" fxn
 }
 
-function walleeye(x) {
+function walleeye(x) { // parameters for single eye
   fill(0); // set fill color
   ellipse(x, y + 16, 25, 25); // draws an ellipse
 }
 
 // begin "Eve" fxns ------------------------------
 
-function eve() {
+function eve() { // elements that make up Eve character
   // head
   fill(255); // sets fill color
   rect(x + 80, 356, 64, 48); // draws a rectangle
@@ -80,19 +85,19 @@ function eve() {
   rect(x + 80, 420, 64, 80); // draws a rectangle
 }
 
-function eveeyes () {
+function eveeyes () { // draws two eyes
   eveeye(x + 86); // determines x coordinate of eye
   eveeye(x + 120); // determines x coordinate of second eye
 }
 
-function eveeye(x) {
+function eveeye(x) { // parameters for eye
   fill(81, 171, 246); // sets fill color
   rect(x, 378, 20, 4); // draws a rectangle
 }
 
 // begin "Moe" fxn ---------------------------------
 
-function moe() {
+function moe() { // elements that make up Moe character
   
   // light
   fill(235, 164, 59); // sets fill color
@@ -118,19 +123,19 @@ function moe() {
   rect(776, 484, 32, 16); // draws a rectangle
 }
 
-function moeeyes() {
+function moeeyes() { // draws two eyes
   moeeye(782); // determines x coordinate of first eye
   moeeye(794); // determines x coordinate of second eye
 }
 
-function moeeye(x) {
+function moeeye(x) { // sets parameters for one eye
   fill(235, 164, 59); // sets fill color
   rect(x, 402, 8, 2); // draws a rectangle
 }
 
 // begin "Plant" fxns -------------------------------
 
-function plant() {
+function plant() { // elements that make up Plant character
   
   // boot
   fill(99, 63, 35); // sets fill color
