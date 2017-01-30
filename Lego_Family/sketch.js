@@ -76,7 +76,7 @@ function draw() {
   if (l > 372 || l < 25){
     dirx = dirx;
   }
-  l = min(l + dirx, 720)
+  l = max(l + dirx, 25)
 }
 
 // begin "Wall-E" fxns ----------------------------
