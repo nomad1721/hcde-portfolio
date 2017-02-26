@@ -1,9 +1,9 @@
 /*  Created by Josh Baker
-    Last edited: 2/24/17
+    Last edited: 2/25/17
     Description: Data vizualization of sea otter population in Washington state.
 */
 
-var population = [430,502,433,604,508,641,620,661,703,814,793,1122,1080,1056,1003,1148,1104,1265,1573,1396];
+var population = [430,502,433,604,508,641,620,661,703,814,793,1122,1080,1056,1003,1148,1104,1265,1573,1396]; // creates an array with the included values
 var otter; // variable for otter image
 var waves; // variable for wave image
 var wavesY = 500; // y position value for waves image
