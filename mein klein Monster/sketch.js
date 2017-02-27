@@ -24,9 +24,9 @@ function draw() {
   // call your monster function
   if (page == 0) {  // if mouseX coordinate is less than 375, the eye moves to the left, if it's more than 375, it moves to the right
       if (mouseX >= 375){
-        eyeDirection = min(eyeDirection + 1, 60);
+        eyeDirection = min(eyeDirection + 2, 60);
       } else {
-        eyeDirection = max(eyeDirection - 1, -60);
+        eyeDirection = max(eyeDirection - 2, -60);
       }
   } else { // if page !0 then switches to jump animation
       jumpValue = jumpValue + jumpDirection;
