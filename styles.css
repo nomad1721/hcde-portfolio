@@ -1,0 +1,30 @@
+/* style sheet for portfolio website */
+
+body {
+    width:960px;
+    margin:auto;
+    font-family: 'Raleway', sans-serif;
+    color:#666666;
+}
+
+h1 {
+    font-weight: 700;
+    color:#fcb335;
+}
+
+p {
+    font-weight: 400;
+}
+
+a:link { 
+    color:#fcb335;
+}
+a:visited { 
+    color:#c97430;
+}
+a:hover { 
+    color:#00ffff;
+}
+a:active { 
+    color:#fcb335;
+}
